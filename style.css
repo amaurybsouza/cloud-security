@@ -26,3 +26,14 @@
   .event-info h3 { font-size:1.03rem; }
   .event-type { align-self:start; }
 }
+
+/* ENGINEERING IMPACT — inherits the existing navy and teal palette */
+.impact-cards { margin-top:32px; }
+.impact-cards .card { transition:transform .2s ease,border-color .2s ease; }
+.impact-cards .card:hover { transform:translateY(-4px); border-color:var(--accent); }
+.impact-cards .card-icon { font-size:1.9rem; color:var(--accent); }
+.impact-cards .card h3 { margin-top:16px; }
+.impact-footer { margin-top:28px; }
+.impact-footer a { color:var(--accent); font-weight:700; font-size:.92rem; }
+.impact-footer a:hover { text-decoration:underline; }
+@media(prefers-reduced-motion:reduce) { .impact-cards .card { transition:none; } }
